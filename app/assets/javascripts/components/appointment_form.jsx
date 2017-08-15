@@ -11,4 +11,4 @@ var AppointmentForm = React.createClass({
       </div>
     )
   }
-})
+});
