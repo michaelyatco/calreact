@@ -1,7 +1,9 @@
 {
   "name": "calreact",
   "private": true,
-  "dependencies": {},
+  "dependencies": {
+    "react-datetime": "^2.9.0"
+  },
   "devDependencies": {
     "eslint": "^4.4.1",
     "eslint-plugin-react": "^7.2.1"

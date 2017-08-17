@@ -6,8 +6,7 @@ class AppointmentsController < ApplicationController
 
   def create
     @appointment = Appointment.new(appointment_params)
-
-    if appointment.save
+    if @appointment.save
       render json: @appointment
     else
       render json: @appointment.errors, status: :unproccessable_entity
